@@ -1,17 +1,25 @@
-import {Component} from '@angular/core';
-import {TranslateService} from '@ngx-translate/core';
+declare let window: any;
+
+import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 
 @Component({
-  selector: 'ir-app',
-  templateUrl: './app.component.html'
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
+export class AppComponent implements OnInit {
+  renderer = '';
 
-export class AppComponent {
-  private translateService: TranslateService;
+  constructor(@Inject(PLATFORM_ID) private platformId: string) {}
 
-  constructor(translateService: TranslateService) {
-    this.translateService = translateService;
-    this.translateService.setDefaultLang('en');
-    this.translateService.use(this.translateService.getBrowserLang());
+  ngOnInit() {
+    this.renderer = isPlatformBrowser(this.platformId) ? 'Browser' : 'Server';
+  }
+
+  openAlert() {
+    if (isPlatformBrowser(this.platformId)) {
+      window.alert('Yes it is!');
+    }
   }
 }
