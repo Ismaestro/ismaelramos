@@ -1,10 +1,6 @@
-npm run build:prod &&
-npm run build:server &&
+npm run build:client-and-server-bundles &&
 rm -Rf public &&
 mkdir public &&
-cd functions/  &&
-npm i --registry=https://registry.npmjs.org &&
-cd .. &&
 cp -a functions/dist/browser/. public/ &&
 mv public/index.html public/index2.html &&
 firebase deploy

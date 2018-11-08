@@ -30,8 +30,7 @@ script:
   - npm run lint
   - npm run test
   - npm run e2e
-  - npm run build:prod
-  - npm run build:server
+  - npm run ci
 
 notifications:
   email:
