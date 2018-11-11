@@ -9,6 +9,6 @@ describe('ismaelramos App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Browser side rendering with Firebase 🔥');
+    expect(page.getDownloadIcon()).not.toBeNull();
   });
 });
