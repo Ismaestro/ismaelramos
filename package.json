@@ -16,7 +16,7 @@
     "build:client-and-server-bundles": "npm run build:prod && npm run build:prod:es && npm run build:server:prod",
     "compile:server": "webpack --config webpack.server.config.js --progress --colors",
     "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server",
-    "ci": "npm run lint && npm run test && npm run e2e && npm run build:ssr",
+    "ci": "npm run lint && npm run test && npm run e2e && npm run build:client-and-server-bundles",
     "deploy": "bash scripts/deploy.sh"
   },
   "license": "MIT",

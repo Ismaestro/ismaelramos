@@ -1,4 +1,4 @@
-npm run build:client-and-server-bundles &&
+npm run ci &&
 rm -Rf public &&
 mkdir public &&
 cp -a functions/dist/browser/. public/ &&
