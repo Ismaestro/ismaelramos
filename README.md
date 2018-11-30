@@ -29,7 +29,7 @@ Resume built with [this template](https://themeforest.net/item/alpha-cv-resume-v
 
 ## Quick start
 
-It's an angular-cli app so just install the dependencies and ``run npm start```.
+It's an angular-cli app so just install the dependencies and `run npm start`.
 
 ## Bugs and feature requests
 
