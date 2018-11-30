@@ -6,6 +6,7 @@ dist-ssr
 /tmp
 /out-tsc
 public
+.firebaserc
 
 # dependencies
 node_modules
