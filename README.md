@@ -1,31 +1,50 @@
-# My own portfolio webpage
+<p align="center">
+  <h1 align="center">Ismael Ramos - Resume</h1>
 
-> ### This project is build with Angular + Angular CLI + TravisCI and more
+  <p align="center">
+    My own resume web page
+    <br>
+    <a href="https://github.com/Ismaestro/resume/issues/new?template=bug.md">Report bug</a>
+    ·
+    <a href="https://github.com/Ismaestro/resume/issues/new?template=feature.md&labels=feature">Request feature</a>
+  </p>
+</p>
+
+## Table of contents
+
+- [Statud](#status-of-the-theme)
+- [Features](#features)
+- [Quick start](#quick-start)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Creators](#creators)
+- [Copyright and license](#copyright-and-license)
+
+## Status of the theme
 
 ![travis](https://travis-ci.org/Ismaestro/ismaelramos.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/Ismaestro/ismaelramos/badge.svg?branch=master)](https://coveralls.io/github/Ismaestro/ismaelramos?branch=master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9d190a60fc864060ac054ba17a4e92e4)](https://www.codacy.com/app/Ismaestro/ismaelramos?utm_source=github.com&utm_medium=referral&utm_content=Ismaestro/ismaelramos&utm_campaign=badger)
-[![Known Vulnerabilities](https://snyk.io/test/github/ismaestro/ismaelramos/badge.svg)](https://snyk.io/test/github/ismaestro/ismaelramos)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
-[![dependency Status](https://david-dm.org/ismaestro/ismaelramos.svg)](https://david-dm.org/ismaestro/ismaelramos#info=dependencies)
-[![devDependency Status](https://david-dm.org/ismaestro/ismaelramos/dev-status.svg)](https://david-dm.org/ismaestro/ismaelramos#info=devDependencies)
-[![peerDependencies Status](https://david-dm.org/ismaestro/ismaelramos/peer-status.svg)](https://david-dm.org/ismaestro/ismaelramos?type=peer)
+## Features
 
-[![npm](https://img.shields.io/badge/demo-online-brightgreen.svg)](http://angularexampleapp.com/)
-[![Join the chat at https://gitter.im/ismaelramos/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ismaelramos/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Resume built with [this template](https://themeforest.net/item/alpha-cv-resume-vcard-portfolio-template/20381622) using Bootstrap.
 
-[![GitHub forks](https://img.shields.io/github/forks/ismaestro/ismaelramos.svg?style=social&label=Fork)](https://github.com/ismaestro/ismaelramos/fork)
-[![GitHub stars](https://img.shields.io/github/stars/ismaestro/ismaelramos.svg?style=social&label=Star)](https://github.com/ismaestro/ismaelramos)
+## Quick start
 
-## Usage
+It's an angular-cli app so just install the dependencies and ``run npm start```.
 
-`npm i`
+## Bugs and feature requests
 
-`npm start`
+Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/Ismaestro/resume/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/Ismaestro/resume/issues/new).
 
-...
+## Creators
 
-## License
+**Ismael Ramos**
 
-MIT
+- <https://github.com/ismaestro>
+
+<a href='https://ko-fi.com/S6S5LMVR' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+## Copyright and license
+
+Code and documentation copyright 2011-2018 the authors. Code released under the [MIT License](https://github.com/Ismaestro/resume/blob/master/LICENSE).
+
+Enjoy :metal:
