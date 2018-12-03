@@ -21,7 +21,7 @@
     5. Name Block
     6. About Block
     7. Portfolio Block
-    8. Blog Block
+    8. Experience Block
     9. Contact Block
    10. Responsive
 
@@ -610,11 +610,11 @@ h2.about.menu-item:before {
   content: '01';
 }
 
-h2.portfolio.menu-item:before {
+h2.experience.menu-item:before {
   content: '02';
 }
 
-h2.blog.menu-item:before {
+h2.portfolio.menu-item:before {
   content: '03';
 }
 
@@ -1385,7 +1385,7 @@ h4.package {
 .portfolio-block {
   position: absolute;
   width: 430px;
-  height: 400px;
+  height: 300px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   display: table;
   transition: all 0.5s;
@@ -1654,29 +1654,29 @@ h4.package {
 
 /*-------------------------------------------------------------------
 
-                        8. BLOG BLOCK
+                        8. EXPERIENCE BLOCK
 
 -------------------------------------------------------------------*/
 
-.blog-block {
+.experience-block {
   position: absolute;
   width: 430px;
-  height: 300px;
+  height: 400px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   display: table;
   transition: all 0.5s;
   z-index: 1
 }
 
-.dark .blog-block {
+.dark .experience-block {
   border: 1px solid rgba(51, 51, 51, 0.4);
 }
 
-.blog-block:hover {
+.experience-block:hover {
   border: 15px solid rgba(255, 255, 255, 0.1);
 }
 
-.blog-block-container {
+.experience-block-container {
   display: table-cell;
   vertical-align: middle;
   padding-left: 50px;
@@ -1767,12 +1767,12 @@ h4.package {
   color: #333;
 }
 
-#blog-header {
+#experience-header {
   height: 500px;
   position: relative;
 }
 
-#blog-header .overlay {
+#experience-header .overlay {
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -1837,7 +1837,7 @@ h4.package {
   color: #727272;
 }
 
-#blog-social {
+#experience-social {
   display: block;
   width: 100%;
   clear: both;
@@ -1847,11 +1847,11 @@ h4.package {
   border-bottom: 1px solid #F1F3F6;
 }
 
-#blog-social > li {
+#experience-social > li {
   display: inline-block;
 }
 
-#blog-social > li > a {
+#experience-social > li > a {
   display: block;
   width: 40px;
   height: 40px;
@@ -1865,7 +1865,7 @@ h4.package {
   transition: all .3s ease;
 }
 
-#blog-social > li > a:hover {
+#experience-social > li > a:hover {
   color: #666;
   border: 1px solid #666;
 }
@@ -2134,7 +2134,7 @@ h4.package {
     top: -60px;
   }
 
-  .portfolio-block {
+  .experience-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2142,7 +2142,7 @@ h4.package {
     top: 179px;
   }
 
-  .blog-block {
+  .portfolio-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2190,7 +2190,7 @@ h4.package {
     top: -151px;
   }
 
-  .portfolio-block {
+  .experience-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2198,7 +2198,7 @@ h4.package {
     top: 89px;
   }
 
-  .blog-block {
+  .portfolio-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2242,7 +2242,7 @@ h4.package {
     height: 300px;
   }
 
-  .portfolio-block {
+  .experience-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2252,7 +2252,7 @@ h4.package {
     height: 300px;
   }
 
-  .blog-block {
+  .portfolio-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2290,7 +2290,7 @@ h4.package {
     top: -150px;
   }
 
-  .portfolio-block {
+  .experience-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2298,7 +2298,7 @@ h4.package {
     top: 89px;
   }
 
-  .blog-block {
+  .portfolio-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2373,7 +2373,7 @@ h4.package {
     top: -150px;
   }
 
-  .portfolio-block {
+  .experience-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2381,7 +2381,7 @@ h4.package {
     top: 89px;
   }
 
-  .blog-block {
+  .portfolio-block {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
@@ -2436,7 +2436,7 @@ h4.package {
   .name-block,
   .about-block,
   .portfolio-block,
-  .blog-block,
+  .experience-block,
   .contact-block {
     position: relative;
     -ms-transform: rotate(0deg);
@@ -2458,7 +2458,7 @@ h4.package {
   .name-block-container,
   .about-block-container,
   .portfolio-block-container,
-  .blog-block-container,
+  .experience-block-container,
   .contact-block-container {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
@@ -2550,7 +2550,7 @@ h4.package {
   .name-block,
   .about-block,
   .portfolio-block,
-  .blog-block,
+  .experience-block,
   .contact-block {
     position: relative;
     -ms-transform: rotate(0deg);
@@ -2571,7 +2571,7 @@ h4.package {
 
   .about-block:hover,
   .portfolio-block:hover,
-  .blog-block:hover,
+  .experience-block:hover,
   .contact-block:hover {
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -2580,7 +2580,7 @@ h4.package {
   .name-block-container,
   .about-block-container,
   .portfolio-block-container,
-  .blog-block-container,
+  .experience-block-container,
   .contact-block-container {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
@@ -2804,7 +2804,7 @@ h4.package {
 }
 
 @media (max-width: 360px) {
-  #blog-social li:first-child {
+  #experience-social li:first-child {
     display: block;
   }
 
