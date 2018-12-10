@@ -376,13 +376,12 @@ a:not([href]):not([tabindex]) {
 }
 
 .home.img-bg {
-  background: url(/src/assets/images/bg/demo.jpg);
+  background: url(/src/assets/images/demo.jpg);
   background-size: cover;
 }
 
 .home .bgScroll {
   animation: 40s linear 0s normal none infinite running bgScroll;
-  background: black url(/src/assets/images/bg/scroll.jpg) repeat scroll center top;
 }
 
 .bgScroll {
@@ -497,17 +496,17 @@ a:not([href]):not([tabindex]) {
 }
 
 .slide.one {
-  background: url(/src/assets/images/slider/slide1.jpg) 48% 48%;
+  background: url(/src/assets/images/slide1.jpg) 48% 48%;
   background-size: cover;
 }
 
 .slide.two {
-  background: url(/src/assets/images/slider/slide2.jpg) 48% 48%;
+  background: url(/src/assets/images/slide2.jpg) 48% 48%;
   background-size: cover;
 }
 
 .slide.three {
-  background: url(/src/assets/images/slider/slide3.jpg) 48% 48%;
+  background: url(/src/assets/images/slide3.jpg) 48% 48%;
   background-size: cover;
 }
 
@@ -550,7 +549,7 @@ a:not([href]):not([tabindex]) {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(/src/assets/images/bg/video-bg.jpg);
+  background: url(/src/assets/images/video.jpg);
   background-size: cover;
   overflow: hidden;
 }
@@ -2348,7 +2347,11 @@ h4.package {
   }
 
   .inline-menu li {
-    padding: 0 10px;
+    padding: 0 7px;
+  }
+
+  #close i {
+    font-size: 27px;
   }
 
   .content {
@@ -2429,7 +2432,6 @@ h4.package {
 
 @media (max-width: 800px) and (orientation: landscape) {
   .home {
-    background: url(/src/assets/images/bg.jpg) #333 30% 30%;
     overflow-y: scroll;
   }
 
@@ -2819,7 +2821,11 @@ h4.package {
   }
 
   .inline-menu li {
-    padding: 0 8px;
+    padding: 0 4px;
+  }
+
+  #close i {
+    font-size: 25px;
   }
 
   .menu4 .inline-menu li {

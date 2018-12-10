@@ -6,9 +6,12 @@ function closeContent() {
   $('.menu-blocks').removeClass('hidex');
   $('.inline-menu-container').removeClass('showx');
   $('.menu-item').removeClass('active');
+  $('#close').hide();
 }
 
 $(document).ready(function () {
+  $('#close').hide();
+
   $('.preloader').fadeOut('slow', function () {
     $('.preloader-left').addClass('slide-left');
   });
@@ -22,6 +25,7 @@ $(document).ready(function () {
       },
       itemSelector: '.portfolio-item'
     });
+    $('#close').show();
     $('#filters').on('click', 'li', function () {
       $('#filters li').removeClass('active');
       $(this).addClass('active');
@@ -33,7 +37,7 @@ $(document).ready(function () {
 
   // Typing Animation (Typed.js)
   $('#element').typed({
-    strings: ['Web developer'],
+    strings: ['Software developer'],
     typeSpeed: -1,
     loop: true,
     startDelay: 500,
