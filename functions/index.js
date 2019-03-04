@@ -24,4 +24,3 @@ app.get('**', function (req, res) {
 });
 
 exports.ssr = functions.https.onRequest(app);
-exports.ssr = functions.https.onRequest(app);
