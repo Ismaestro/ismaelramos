@@ -8742,7 +8742,7 @@ a.text-dark:focus, a.text-dark:hover {
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url('/src/assets/images/owl.video.play.png') no-repeat;
+  background: url('/resume/assetsets/images/owl.video.play.png') no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
